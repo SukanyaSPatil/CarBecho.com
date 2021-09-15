@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Jul 8, 2017 9:34:34 PM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.suku.pojo.Car" table="CAR">
+        <id name="chasisNumber" type="java.lang.String">
+            <column name="CHASISNUMBER" />
+            <generator class="assigned" />
+        </id>
+        <property name="model" type="java.lang.String">
+            <column name="MODEL" />
+        </property>
+        <property name="type" type="java.lang.String">
+            <column name="TYPE" />
+        </property>
+        <property name="color" type="java.lang.String">
+            <column name="COLOR" />
+        </property>
+        <property name="engineNumber" type="java.lang.String">
+            <column name="ENGINENUMBER" />
+        </property>
+        <property name="dealer" type="java.lang.String">
+            <column name="DEALER" />
+        </property>
+        <property name="company" type="java.lang.String">
+            <column name="COMPANY" />
+        </property>
+        <property name="price" type="java.lang.String">
+            <column name="PRICE" />
+        </property>
+        <property name="description" type="java.lang.String">
+            <column name="DESCRIPTION" />
+        </property>
+        <property name="image" type="java.lang.String">
+            <column name="IMAGE" />
+        </property>
+        <property name="quantity" type="int">
+            <column name="QUANTITY" />
+        </property>
+        <property name="paymentTerm" type="java.lang.String">
+            <column name="PAYMENTTERM" />
+        </property>
+        <property name="delivery" type="java.lang.String">
+            <column name="DELIVERY" />
+        </property>
+    </class>
+</hibernate-mapping>

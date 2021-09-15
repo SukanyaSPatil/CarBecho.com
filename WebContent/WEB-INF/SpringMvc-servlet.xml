@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+<bean name="/updateDeleteaction.xyz" class="com.suku.controler.UpdateAndDeleteCombineController"/>
+<bean name="/LoginDealer.xyz" class="com.suku.controler.LoginDealerController"/>
+     <bean name="/RegisterDelaer.xyz" class="com.suku.controler.RegisterDelalerController"/>
+	<bean name="/abc.xyz" class="com.suku.controler.LoginController"/>
+	<bean name="/insertCar.xyz" class="com.suku.controler.InsertCarController"/>
+	<bean name="/ShowDCar.xyz" class="com.suku.controler.ShowDCarController"/>
+	<bean name="/Cardetails.xyz" class="com.suku.controler.DetailsCarController"/>
+	<bean name="/UpdateCarD.xyz" class="com.suku.controler.UpdateCarDController"/>
+	<bean name="/DeleteD.xyz" class="com.suku.controler.DeleteCarDController"/>
+	<bean name="/RegisterUser.xyz" class="com.suku.controler.RegisterUserController"/>
+	<bean name="/selectByBrand.xyz" class="com.suku.controler.SearchByBrandController"/>
+	<bean name="/CardetailsUser.xyz" class="com.suku.controler.DetailsOfCarForUserController"/>
+	<bean name="/BookCar.xyz" class="com.suku.controler.BookCarController"/>
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+</beans>
