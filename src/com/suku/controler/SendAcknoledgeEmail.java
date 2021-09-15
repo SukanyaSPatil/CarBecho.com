@@ -15,9 +15,9 @@ public class SendAcknoledgeEmail {
 		      String to =dealerId;//change accordingly
 
 		      // Sender's email ID needs to be mentioned
-		      String from = "sukanyapatil1994@gmail.com";//change accordingly
-		      final String username = "sukanyapatil1994@gmail.com";//change accordingly
-		      final String password = "sungard2016";//change accordingly
+		      String from = "admin-gmail_id";//change accordingly
+		      final String username = "admin-gmail_id";//change accordingly
+		      final String password = "admin-password";//change accordingly
 
 		      // Assuming you are sending email through relay.jangosmtp.net
 		      String host = "smtp.gmail.com";
